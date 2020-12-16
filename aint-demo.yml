@@ -1,0 +1,14 @@
+
+Description: >
+       Demo AINT Private Cloud 
+Resources:
+      DEMOVPC:
+          Type: AWS::EC2::VPC
+          Properties:
+              CidrBlock: 10.0.0.0/16
+              EnableDnsHostnames: true
+              Tags:
+                Key: Name
+                Value: DEMOVPC
+
+
